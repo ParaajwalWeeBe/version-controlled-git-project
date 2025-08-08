@@ -1,0 +1,14 @@
+cat <<EOF > .gitignore
+# macOS
+.DS_Store
+
+# Node (if applicable)
+node_modules/
+npm-debug.log
+
+# Terraform (if applicable)
+*.tfstate
+*.tfstate.*
+.terraform/
+EOF
+
